@@ -1,0 +1,32 @@
+# PR1_Usachev_lab_rab3
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+<script>
+     $(document).ready(function () {
+         $("#btn1").click(function () {
+		 $("[href]").hide();
+	});
+	$("#btn2").click(function () {
+		 $("[href]").show();
+	});
+     });
+
+</script> 
+</head> 
+<body>  
+<p><a href="http://www.fcbarcelona.com/">Футбольный клуб Барселона</a></p>
+<p>Футбольный клуб Реал Мадрид</p>
+<p>Футбольный клуб Севилья</p>
+<p><a href="http://www.valenciacf.com/portadas/splash">Футбольный клуб Валенсия</a></p>
+<p><a href="http://www.manutd.ru/">Футбольный клуб Манчестер Юнайтед</a></p>
+<p>Футбольный клуб Зенит</p>
+<p><a href="http://pfc-cska.com/">Футбольный клуб ЦСКА</a></p>
+<br>
+<br>
+<button id="btn1">Скрыть элементы c атрибутом href</button>
+<button id="btn2">Отобразить элементы c атрибутом href</button>
+</body> 
+</html>
