@@ -1,0 +1,35 @@
+# PR1_Usachev_lab_rab3
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+<script>
+     $(document).ready(function () {
+         $("#btn1").click(function () {
+		 $("[align*='center']").hide();
+	});
+	$("#btn2").click(function () {
+		 $("[align*='center']").show();
+	});
+     });
+
+</script> 
+</head> 
+<body>  
+ <table >
+<tr align ="center"><td>Real Madrid</td></tr>
+<tr><td>Manchester Unaited</td></tr>
+<tr><td>Valencia</td></tr>
+<tr><td>Sevilia</td></tr>
+<tr align ="center"><td>Zenit</td></tr>
+<tr align ="center"><td>Spartak</td></tr>
+<tr><td>Inter</td></tr>
+<tr align ="center"><td>Milan</td></tr>
+<tr align ="center"><td>Lion</td></tr>
+</table>
+<br>
+<button id="btn1">Скрыть элементы, выравненные по центру</button>
+<button id="btn2">Отобразить элементы, выравненные по центру</button>
+</body> 
+</html>
