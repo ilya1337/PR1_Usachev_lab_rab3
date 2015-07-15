@@ -1,0 +1,36 @@
+# PR1_Usachev_lab_rab3
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>	 		
+	$(document).ready(function () {
+		$("button").click(function () {
+		var i=1;
+		do{
+		$(".p2").fadeToggle(2000);
+		i++;
+		if(i%2==0){
+			$(".p1").fadeToggle(2000);}
+		}
+		while(i<2000)
+		$(".p1").hide();
+		});
+});
+</script>
+</head>
+<body>
+<p class="p1"style="display:none">Cska</p>
+<p class="p2" style="display:none">Spartak</p>
+<p class="p1"style="display:none">Dinamo</p>
+<p class="p2" style="display:none">Lokomotiv</p>
+<p class="p1"style="display:none">Amkar</p>
+<p class="p2" style="display:none">Volga</p>
+<p class="p1"style="display:none">Krasnodar</p>
+<p class="p2" style="display:none">Zenit</p>
+<p class="p1"style="display:none">Himki</p>
+<p class="p2" style="display:none">Shahter</p>
+</body>
+<br>
+<button>Отобразить строки</button>
+</html>
