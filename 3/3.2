@@ -1,0 +1,42 @@
+# PR1_Usachev_lab_rab3
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script> 		
+	$(document).ready(function () {
+		$("#btn1").click(function () {
+			var a=Math.floor(Math.random() * (6 - 1)) + 1;			
+			if(a==1){
+			$("#div1").fadeIn(3000);}
+			else if(a==2){
+			$("#div2").fadeIn(3000);}
+			else if(a==3){
+			$("#div3").fadeIn(3000);}
+			else if(a==4){
+			$("#div4").fadeIn(3000);}
+			else if(a==5) {
+			$("#div5").fadeIn(3000);}
+		});
+		$("#btn2").click(function () {
+			$("#div1").fadeOut();
+			$("#div2").fadeOut();
+			$("#div3").fadeOut();
+			$("#div4").fadeOut();
+			$("#div5").fadeOut();
+		});
+	});
+</script>
+</head>
+<body>
+<div id="div1" style="width:180px;height:20px;display:none;">Zenit</div>
+<div id="div2" style="width:180px;height:20px;display:none;">Cska</div>
+<div id="div3" style="width:180px;height:20px;display:none;">Spartak</div>
+<div id="div4" style="width:180px;height:20px;display:none;">Lokomotiv</div>
+<div id="div5" style="width:180px;height:20px;display:none;">Amkar</div>
+<br>
+</body>
+<button id="btn1">Показать</button>
+<button id="btn2">Скрыть</button>
+</body>
+</html>
