@@ -1,0 +1,26 @@
+# PR1_Usachev_lab_rab3
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+<script> 
+    $(document).ready(function () { 
+        $("button").click(function () { 
+            $('#div1').delay(50).animate({marginTop:+40},'slow');
+            $('#div3').delay(50).animate({marginTop:+40},'slow');
+            $('#div5').delay(50).animate({marginTop:+40},'slow');
+        });    
+    }); 
+</script>  
+</head> 
+<body> 
+<button>Запуск</button> <br>
+<div id="div1"style="background:red;height:40px;width:40px;position:absolute;"> </div> <br><br>
+<div id="div2"style="background:orange;height:40px;width:40px;position:absolute;"></div> <br><br>
+<div id="div3"style="background:yellow;height:40px;width:40px;position:absolute;"></div> <br><br>
+<div id="div4"style="background:green;height:40px;width:40px;position:absolute;"></div> <br><br>
+<div id="div5"style="background:cyan;height:40px;width:40px;position:absolute;"></div> <br><br>
+<div id="div6"style="background:blue;height:40px;width:40px;position:absolute;"></div> 
+</body> 
+</html>
