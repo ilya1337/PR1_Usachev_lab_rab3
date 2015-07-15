@@ -1,0 +1,38 @@
+# PR1_Usachev_lab_rab3
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+<script> 
+    $(document).ready(function () { 
+          $("#btn1").click(function () {
+                var i=1;
+		do{
+		$("#div1").fadeIn(2000);
+                $("#div2").fadeOut(2000);
+		i++;
+		if(i%2==0){
+			$("#div2").fadeIn(2000);
+                        $("#div1").fadeOut(2000); }
+		}
+		while(i<2000)
+		$("#div2").hide();
+		});
+          $("#btn2").click(function () {
+                $("#div1").stop($("#but1").click());
+                $("#div2").stop($("#but1").click());
+		$("#div1").fadeIn();
+                $("#div2").fadeIn();
+         }); 
+    }); 
+</script> 
+</head> 
+<body> 
+<br> 
+<div id="div1" style="width:80px;height:80px;display:none;background-color:orange;"></div><br> 
+<div id="div2" style="width:80px;height:80px;display:none;background-color:lime;"></div><br>
+<button id="btn1">Появление/исчезновение</button>
+<button id="btn2">Отобразить картинки</button> 
+</body> 
+</html>
