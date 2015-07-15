@@ -1,0 +1,29 @@
+# PR1_Usachev_lab_rab3
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+<script> 
+    $(document).ready(function () { 
+        $("button").click(function () { 
+		$('#div1').delay(50).animate({left: '40px' });
+                $('#div2').text('Ford Focus');
+                $('#div3').delay(50).animate({left: '40px' });
+                $('#div4').text('Renault Logan');
+                $('#div5').delay(50).animate({left: '40px' });       
+                $('#div6').text('Toyota RAV4');
+	});     
+    }); 
+</script>  
+</head> 
+<body> 
+<button>Запуск</button> <br>
+<div id="div1" style="width:180px;height:20px;position:absolute">Cska</div> <br>
+<div id="div2" style="width:180px;height:20px;position:absolute">Spartak</div><br>
+<div id="div3" style="width:180px;height:20px;position:absolute;">Zenit</div><br>
+<div id="div4" style="width:180px;height:20px;position:absolute">Lokomotiv</div><br>
+<div id="div5" style="width:180px;height:20px;position:absolute;">Amkar</div><br>
+<div id="div6" style="width:180px;height:20px;position:absolute;">Dinamo</div><br> 
+</body> 
+</html>
